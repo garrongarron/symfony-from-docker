@@ -7,7 +7,7 @@ services:
             context: .
             dockerfile: ./docker/nginx/Dockerfile-nginx
         volumes:
-            - ./symfony/:/var/www/symfony/
+            - ./symfony/:/var/www/html/
         ports:
             - 80:80
         networks:
@@ -23,7 +23,7 @@ services:
         expose:
             - 9000
         volumes:
-            - ./symfony/:/var/www/symfony/
+            - ./symfony/:/var/www/html/
         networks:
             - symfony
         depends_on: 
