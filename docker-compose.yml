@@ -35,7 +35,7 @@ services:
         image: mysql
         command: --default-authentication-plugin=mysql_native_password
         volumes:
-            - db_data:/var/lib/mysql
+            - ./db_data:/var/lib/mysql
         environment:
             MYSQL_ROOT_PASSWORD: secret
             MYSQL_DATABASE: symfony
