@@ -31,9 +31,9 @@ http://localhost/
 ```
 sudo docker exec -it php bash
 ```
-Y luego, dentro del contenedor, ir a:
+Una vez que estes en la siguiente carpeta:
 ```
-root@2af8f40ac257:/var/www/symfony# 
+root@2af8f40ac257:/var/www/html# 
 ```
 Y entonces, ejecutar:
 ```
