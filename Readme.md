@@ -12,7 +12,7 @@ sudo docker exec -it php bash
 ```
 Y luego, dentro del contenedor ***php***
 ```
-composer create-project symfony/website-skeleton symfony
+composer create-project symfony/website-skeleton .
 ```
 ## Si descargaste algún proyecto desde git
 Teniendo en cuenta que los archivos de la aplicacion están la carpeta ***./symfony*** y el accespoint en ***./symfony/public***
